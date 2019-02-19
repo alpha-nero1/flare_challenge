@@ -82,8 +82,6 @@ class BattleShip {
 
             hit_or_miss(row, col);
             game_lost = is_over();
-
-            System.out.println(Arrays.deepToString(playing_board));
         }
     }
 
